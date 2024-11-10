@@ -5,10 +5,189 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    Sample page
+    <h1>My website</h1>
+    <section id="about">
+        <nav>
+            <a href="#about">about</a>
+            <a href="#skills">Skill</a>
+            <a href="#experience">Experience</a>
+        </nav>
+        <article class="profile">
+            <!-- 左側部分：頭像和標語 -->
+            <div class="profile-left">
+                <img src="image/ME.jpg" alt="Profile Image" class="profile-image" />
+                <div class="slogan">從哪裡跌倒，就從哪裡站起來</div>
+            </div>
+
+            <!-- 右側部分：About Me 資訊、聯絡圖片與社群圖標 -->
+            <div class="profile-right">
+                <!-- About Me 文字資訊 -->
+                <div class="profile-info">
+                    <h2>About Me</h2>
+                    <p>姓名: 吳振彥</p>
+                    <p>學歷: 中原大學資訊管理學系</p>
+                    <p>個性: 沉穩、內斂、負責</p>
+                    <p>愛好: 關注新聞、分析股票、打高爾夫</p>
+                    <p>聯絡方式:請點擊圖標</p>
+                </div>
+
+                <!-- 社群軟體圖標 -->
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100004575510570    " target="_blank">
+                        <img src="image/facebook_icon.png" alt="Social Icon 1" />
+                    </a>
+                    <a href="mailto:k9404019487@gmail.com" target="_blank">
+                        <img src="image/mail_icon.png" alt="Social Icon 2" />
+                    </a>
+                    <a href="https://www.instagram.com/yan_wu_0401/" target="_blank">
+                        <img src="image/ig-icon.png" alt="Social Icon 3" />
+                    </a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="skills">
+        <h1>Skill</h1>
+        <div class="container">
+            <!-- 左側：程式語言能力 -->
+            <div class="skills-left">
+                <h2>程式語言能力</h2>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/java_icon.png" alt="Java Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart java"></div>
+                        <span class="percentage">95%</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/python_icon.svg" alt="Python Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart python"></div>
+                        <span class="percentage">80%</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/html_icon.png" alt="HTML Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart html"></div>
+                        <span class="percentage">70%</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/CSS_icon.png" alt="CSS Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart css"></div>
+                        <span class="percentage">65%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右側：文書處理能力 -->
+            <div class="skills-right">
+                <h2>文書處理能力</h2>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>Excel</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/excel_icon.svg" alt="Excel Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart excel"></div>
+                        <span class="percentage">80%</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>Word</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/word_icon.svg" alt="Word Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart word"></div>
+                        <span class="percentage">80%</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="skill-name">
+                        <span>PowerPoint</span>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="image/powerpoint_icon.svg" alt="PowerPoint Icon" width="70px" />
+                    </div>
+                    <div class="skill-level">
+                        <div class="pie-chart ppt"></div>
+                        <span class="percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="experience">
+        <h1>Experience</h1>
+        <div class="container-experience">
+            <div class="card2">
+                <img src="image/club.jpg" width="20%" class="experience-image" />
+                <div class="text-content">
+                    <h3>社團副社長</h3>
+                    <p>高中時我擔任社團副社長，負責組織活動及協調成員，培養了我的領導能力以及時間管理能力，這經驗令我在生活與課業能做好時間管理，同時懂得如何圓滑的處理事件。</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-experience">
+            <div class="card2">
+                <img src="image/volunteer.jpg" width="20%" class="experience-image" />
+                <div class="text-content">
+                    <h3>服務學習</h3>
+                    <p>在管理學課程中，我參與了由學校中的學生團體組織的淨溪活動，這次經驗使我了解具體個活動的籌辦與規劃，也嚷我深刻了解我們現在所身處的環境遭遇了多大的汙染，使我明白SDGS的重要性。</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-experience">
+            <div class="card2">
+                <img src="image/prize.jpg" width="20%" class="experience-image" />
+
+                <div class="text-content">
+                    <h3>書券獎</h3>
+                    <p>我在大一下學期，以優異的成績取的第三名，我成功活用自身經驗，規劃自己的時間，並在生活與課業上取得了很好的平衡，同時，設定每周需要健身的時間，使自己在學習更有效率。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h5>Copyrgiht @ 2022 All rights reserved</h5>
+    </footer>
+
 </body>
 
 </html>
